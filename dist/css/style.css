@@ -1,0 +1,33 @@
+@import url("standard.css");
+
+body {
+	margin: 0 auto;
+	font-family: "Nanum Gothic", sans-serif;
+  }
+
+  /* Navigation bar */
+  
+  .navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(68, 67, 67);
+  }
+  
+  a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 1em;
+	text-decoration: none;
+	float: left;
+  }
+  
+  a:hover {
+	background-color: rgb(39, 39, 39);
+  }
+
+  .active {
+	background-color: rgb(109, 105, 105);
+  }
