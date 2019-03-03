@@ -5,7 +5,7 @@ var index = 0;
 var newPhoto;
 
 function next(){
-	if(index<4){
+	if(index<8){
 		index++;
 	}else{
 		index=0;
